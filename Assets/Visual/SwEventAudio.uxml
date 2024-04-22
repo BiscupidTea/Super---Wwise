@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Visual/SwEventAudio.uss?fileID=7433441132597879392&amp;guid=c40f4520543b74443bf156f8bbaf42bf&amp;type=3#SwEventAudio" />
+    <ui:VisualElement name="Title" class="section" style="flex-grow: 1; height: -56px;">
+        <ui:Label tabindex="-1" text="SW Event Audio" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: middle-center; white-space: normal; -unity-font: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Fonts/Anton.ttf?fileID=12800000&amp;guid=997a43b767814dd0a7642ec9b78cba41&amp;type=3#Anton&quot;); -unity-font-style: bold; font-size: 40px; text-overflow: clip; height: 100%; width: 100%; color: rgb(255, 255, 255);" />
+    </ui:VisualElement>
+    <ui:VisualElement name="EventName" style="flex-grow: 1; height: auto; width: auto; justify-content: center;">
+        <ui:TextField picking-mode="Ignore" label="Event Name" value="filler text" style="height: auto;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Variable" style="flex-grow: 1;" />
+    <ui:VisualElement name="UnityEvent" style="flex-grow: 1;" />
+    <ui:VisualElement name="Collider" style="flex-grow: 1;" />
+</ui:UXML>

@@ -1,8 +1,8 @@
 using UnityEditor;
 using UnityEngine.UIElements;
 
-[CustomEditor(typeof(EventAudio))]
-public class EventAudioVisual : Editor
+[CustomEditor(typeof(SwEventAudio))]
+public class EventAudioEditor: Editor
 {
     public VisualTreeAsset visualTree;
 

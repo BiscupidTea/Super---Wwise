@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:Label tabindex="-1" text="Wwise Event Audio" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SciptTitle" style="align-self: auto; font-size: 20px; -unity-font-style: bold; -unity-text-align: upper-center;" />
+    <ui:Label tabindex="-1" text="Audio Event Name" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AudioName" />
+    <ui:TextField picking-mode="Ignore" binding-path="EventName" />
+</ui:UXML>

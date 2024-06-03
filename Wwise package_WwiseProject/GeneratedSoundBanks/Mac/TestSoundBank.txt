@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2752533807	Play_TestSound			\Default Work Unit\Play_TestSound	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	978666395	heavy hit	C:\Users\silvi\Desktop\Covid19\Unity\UltimoAño\Wwise package\Wwise package_WwiseProject\.cache\Mac\SFX\heavy hit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\heavy hit		146648
+

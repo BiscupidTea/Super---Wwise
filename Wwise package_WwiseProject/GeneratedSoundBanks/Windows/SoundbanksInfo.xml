@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="1831431028" Type="User" Language="SFX" Hash="{99CFCD67-5F44-E483-E685-C209EFFCA0BF}">
+			<ShortName>TestSoundBank</ShortName>
+			<Path>TestSoundBank.bnk</Path>
+			<Media>
+				<File Id="978666395" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>heavy hit.wav</ShortName>
+					<CachePath>SFX/heavy hit_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2752533807" Name="Play_TestSound" DurationType="OneShot" DurationMin="0.8307937" DurationMax="0.8307937">
+					<MediaRefs>
+						<MediaRef Id="978666395"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{38BE9CA9-0D6D-53E5-AED4-1176E193C03C}</FileHash>
+</SoundBanksInfo>

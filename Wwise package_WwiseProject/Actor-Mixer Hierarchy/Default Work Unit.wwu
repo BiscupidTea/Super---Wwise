@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C8197453-22E9-428F-A00D-E586A5BFCF6B}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{C8197453-22E9-428F-A00D-E586A5BFCF6B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C8197453-22E9-428F-A00D-E586A5BFCF6B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="heavy hit" ID="{4EDDB5A3-0EAB-4D0B-BD59-E54AA78FCE5E}" ShortID="115549907">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A3D5F7E8-5AE5-47BC-991C-7421A82F25A3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{57CEAD73-50BD-4003-8B25-1237919107BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="heavy hit" ID="{798E6055-4F59-410A-B162-1DCF9682A598}">
+							<Language>SFX</Language>
+							<AudioFile>heavy hit.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="978666395"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="heavy hit" ID="{798E6055-4F59-410A-B162-1DCF9682A598}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

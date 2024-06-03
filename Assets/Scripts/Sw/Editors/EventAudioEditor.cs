@@ -1,14 +1,14 @@
 using UnityEditor;
 using UnityEngine;
 
-[CustomEditor(typeof(UnityEventSubscriber))]
+[CustomEditor(typeof(SwUnityEventSubscriber))]
 public class EventAudioEditor: Editor
 {
     public override void OnInspectorGUI()
     {
         DrawDefaultInspector();
 
-        UnityEventSubscriber BaseAudioScript = (UnityEventSubscriber)target;
+        SwUnityEventSubscriber BaseAudioScript = (SwUnityEventSubscriber)target;
 
         if (GUILayout.Button("Play Audio"))
         {

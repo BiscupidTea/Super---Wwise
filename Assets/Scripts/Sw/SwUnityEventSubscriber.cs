@@ -1,12 +1,13 @@
-using System;
 using UnityEngine;
 using UnityEngine.Events;
 
-[RequireComponent(typeof(AkGameObj))]
-public class UnityEventSubscriber : MonoBehaviour
+public class SwUnityEventSubscriber : MonoBehaviour
 {
     //string event 
     [SerializeField] private string EventName;
+
+    //others
+    public UnityEvent OnPlayAudioEvent;
 
     //colision
     [SerializeField] private bool collider;
@@ -15,19 +16,10 @@ public class UnityEventSubscriber : MonoBehaviour
     [SerializeField] private bool TiggerEnter;
     [SerializeField] private bool TriggerExit;
 
-    private void OnEnable()
-    {
-
-    }
-
-    private void OnDisable()
-    {
-
-    }
-
     public void OnPlayAudio()
     {
         AkSoundEngine.PostEvent(EventName, gameObject);
+        OnPlayAudioEvent.Invoke();
     }
 
     #region Collisions and triggers

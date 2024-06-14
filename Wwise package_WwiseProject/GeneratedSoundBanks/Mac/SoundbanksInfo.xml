@@ -41,7 +41,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1831431028" Type="User" Language="SFX" Hash="{2A1F4A00-4328-F698-48CC-CDD1CB9FD01D}">
+		<SoundBank Id="1831431028" Type="User" Language="SFX" Hash="{F0ABB37A-F635-1DCC-1B84-CDC2CA0C7074}">
 			<ShortName>TestSoundBank</ShortName>
 			<Path>TestSoundBank.bnk</Path>
 			<Media>
@@ -112,6 +112,8 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="2866861045" Name="StopMusicState" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1757725814" Name="StopMusicSwitch" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<StateGroups>
 				<StateGroup Id="3758217330" Name="stateMusica">
@@ -134,5 +136,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1ABAA81B-9235-669A-0DF9-00C6A2E55665}</FileHash>
+	<FileHash>{6C533B9A-52DE-4FE8-9530-3CFAC8C43CBF}</FileHash>
 </SoundBanksInfo>

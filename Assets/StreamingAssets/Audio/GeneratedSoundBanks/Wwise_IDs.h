@@ -16,6 +16,8 @@ namespace AK
         static const AkUniqueID PLAY_TESTSOUND = 2752533807U;
         static const AkUniqueID PLAYMUSICSTATE = 1035427595U;
         static const AkUniqueID PLAYMUSICSWITCH = 4155737288U;
+        static const AkUniqueID STOPMUSICSTATE = 2866861045U;
+        static const AkUniqueID STOPMUSICSWITCH = 1757725814U;
     } // namespace EVENTS
 
     namespace STATES

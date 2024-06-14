@@ -760,7 +760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a3ecfefd3708bc4d9f9d924217a4353, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventName: PlayMusicSwitch
+  eventName: PlayMusicState
   onPlayAudioEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -777,7 +777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   swBasic: {fileID: 2048063445}
-  swSwitch: {fileID: 2048063447}
+  swState: {fileID: 2048063447}
   newState: a
 --- !u!114 &2048063447
 MonoBehaviour:
@@ -788,10 +788,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2048063441}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f78a1e4dfe340c4aaead6ae2543bf4b, type: 3}
+  m_Script: {fileID: 11500000, guid: d8bafab99d128544d934e03571ad96d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SwitchGroup: switchmusica
+  stateGroup: stateMusica
 --- !u!1 &2054161837
 GameObject:
   m_ObjectHideFlags: 0

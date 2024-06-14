@@ -36,6 +36,8 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="StopMusicState" ID="{629F9AB2-6F0D-4BE5-9B76-CF6E319719F0}"/>
+				<Event Name="StopMusicSwitch" ID="{1084F92F-15F6-484A-922F-7A83DE4E81FC}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

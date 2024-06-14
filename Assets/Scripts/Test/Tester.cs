@@ -4,7 +4,7 @@ using UnityEngine.Events;
 public class Tester : MonoBehaviour
 {
     public SwBasic swBasic;
-    public SwSwitch swSwitch;
+    public SwState swState;
     public string newState;
 
     [ContextMenu("Test Event")]
@@ -16,6 +16,6 @@ public class Tester : MonoBehaviour
     [ContextMenu("ChangeState Event")]
     public void ChangeState()
     {
-        swSwitch.SetSwitchState(newState);
+        swState.SetState(newState);
     }
 }

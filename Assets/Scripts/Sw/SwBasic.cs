@@ -10,7 +10,8 @@ public class SwBasic : MonoBehaviour
 
     //others
     public UnityEvent onPlayAudioEvent;
-
+    
+    [ContextMenu("Play Audio Event")]
     public void OnPlayAudio()
     {
         Debug.Log("Play Audio");

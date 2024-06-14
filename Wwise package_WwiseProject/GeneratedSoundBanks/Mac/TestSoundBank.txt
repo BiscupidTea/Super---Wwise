@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1035427595	PlayMusicState			\Default Work Unit\PlayMusicState	
+	1757725814	StopMusicSwitch			\Default Work Unit\StopMusicSwitch	
 	2752533807	Play_TestSound			\Default Work Unit\Play_TestSound	
+	2866861045	StopMusicState			\Default Work Unit\StopMusicState	
 	4155737288	PlayMusicSwitch			\Default Work Unit\PlayMusicSwitch	
 
 Switch Group	ID	Name			Wwise Object Path	Notes

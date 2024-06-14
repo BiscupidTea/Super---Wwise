@@ -6,7 +6,7 @@ public class SwState : MonoBehaviour
 {
     public string stateGroup;
     
-    public void SetSwitchState(string newState)
+    public void SetState(string newState)
     {
         AkSoundEngine.SetState(stateGroup, newState);
     }

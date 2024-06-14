@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{ACCC1A7E-BF7C-75FF-14E9-B15BE5C20B7D}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -21,11 +21,42 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<StateGroups>
+				<StateGroup Id="3758217330" Name="stateMusica">
+					<States>
+						<State Id="84696444" Name="c"/>
+						<State Id="84696445" Name="b"/>
+						<State Id="84696446" Name="a"/>
+						<State Id="748895195" Name="None"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="1151277219" Name="switchmusica">
+					<Switches>
+						<Switch Id="84696444" Name="c"/>
+						<Switch Id="84696445" Name="b"/>
+						<Switch Id="84696446" Name="a"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1831431028" Type="User" Language="SFX" Hash="{99CFCD67-5F44-E483-E685-C209EFFCA0BF}">
+		<SoundBank Id="1831431028" Type="User" Language="SFX" Hash="{2A1F4A00-4328-F698-48CC-CDD1CB9FD01D}">
 			<ShortName>TestSoundBank</ShortName>
 			<Path>TestSoundBank.bnk</Path>
 			<Media>
+				<File Id="24827831" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GAMEPLAY_Autum_1st wave_tale reverb.wav</ShortName>
+					<CachePath>SFX/GAMEPLAY_Autum_1st wave_tale reverb_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="133948588" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GAMEPLAY_Autum_2nd wave_tale reverb.wav</ShortName>
+					<CachePath>SFX/GAMEPLAY_Autum_2nd wave_tale reverb_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="247731958" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GAMEPLAY_Autum_3stwave_tale reverb.wav</ShortName>
+					<CachePath>SFX/GAMEPLAY_Autum_3stwave_tale reverb_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="978666395" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>heavy hit.wav</ShortName>
 					<CachePath>SFX/heavy hit_10C4C929.wem</CachePath>
@@ -37,8 +68,71 @@
 						<MediaRef Id="978666395"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1035427595" Name="PlayMusicState" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3758217330" Id="84696446"/>
+							<MediaRefs>
+								<MediaRef Id="24827831"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3758217330" Id="84696445"/>
+							<MediaRefs>
+								<MediaRef Id="133948588"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3758217330" Id="84696444"/>
+							<MediaRefs>
+								<MediaRef Id="247731958"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="4155737288" Name="PlayMusicSwitch" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1151277219" Id="84696446"/>
+							<MediaRefs>
+								<MediaRef Id="247731958"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1151277219" Id="84696445"/>
+							<MediaRefs>
+								<MediaRef Id="133948588"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1151277219" Id="84696444"/>
+							<MediaRefs>
+								<MediaRef Id="24827831"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="3758217330" Name="stateMusica">
+					<States>
+						<State Id="84696444" Name="c"/>
+						<State Id="84696445" Name="b"/>
+						<State Id="84696446" Name="a"/>
+						<State Id="748895195" Name="None"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="1151277219" Name="switchmusica">
+					<Switches>
+						<Switch Id="84696444" Name="c"/>
+						<Switch Id="84696445" Name="b"/>
+						<Switch Id="84696446" Name="a"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{93CC0298-1FE9-3E28-A876-3477A5DE2F85}</FileHash>
+	<FileHash>{1ABAA81B-9235-669A-0DF9-00C6A2E55665}</FileHash>
 </SoundBanksInfo>

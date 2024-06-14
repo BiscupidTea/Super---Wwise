@@ -14,6 +14,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PlayMusicSwitch" ID="{0B7F5F5E-3504-4489-A2C1-1EADFA4A68BC}">
+					<ChildrenList>
+						<Action Name="" ID="{34D58BEA-B50D-4940-ABDA-52F6D31CBCC4}" ShortID="437477603">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="switchMusica" ID="{1D78201E-0651-4731-9A35-6595320A039B}" WorkUnitID="{F89CB0CA-5B44-4BBC-AD66-2EA442678CC1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayMusicState" ID="{83379640-416B-4050-9076-40FE3762BAA7}">
+					<ChildrenList>
+						<Action Name="" ID="{134F9291-2B1B-44A9-8959-B55AC334FED8}" ShortID="529297061">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stateMusica" ID="{73E7EC47-E0AE-4A4C-8FF4-12BD13A43557}" WorkUnitID="{F89CB0CA-5B44-4BBC-AD66-2EA442678CC1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

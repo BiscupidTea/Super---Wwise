@@ -1,31 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class Tester : MonoBehaviour
 {
-    public UnityEvent testEvent;
-    public SwUnityEventSubscriber testSubscriber;
-
-    private void OnEnable()
-    {
-        testSubscriber.OnPlayAudioEvent.AddListener(ReceivedEvent);
-    }
-
-    private void OnDisable()
-    {
-        testSubscriber.OnPlayAudioEvent.RemoveListener(ReceivedEvent);
-    }
+    public SwBasic swBasic;
+    public SwSwitch swSwitch;
+    public string newState;
 
     [ContextMenu("Test Event")]
     public void TestEvent()
     {
-       testEvent.Invoke();
+        swBasic.OnPlayAudio();
     }
 
-    public void ReceivedEvent()
+    [ContextMenu("ChangeState Event")]
+    public void ChangeState()
     {
-        Debug.Log("Recived Event");
+        swSwitch.SetSwitchState(newState);
     }
 }

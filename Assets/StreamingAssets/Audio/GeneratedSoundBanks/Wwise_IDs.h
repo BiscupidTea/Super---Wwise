@@ -14,7 +14,42 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_TESTSOUND = 2752533807U;
+        static const AkUniqueID PLAYMUSICSTATE = 1035427595U;
+        static const AkUniqueID PLAYMUSICSWITCH = 4155737288U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace STATEMUSICA
+        {
+            static const AkUniqueID GROUP = 3758217330U;
+
+            namespace STATE
+            {
+                static const AkUniqueID A = 84696446U;
+                static const AkUniqueID B = 84696445U;
+                static const AkUniqueID C = 84696444U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace STATEMUSICA
+
+    } // namespace STATES
+
+    namespace SWITCHES
+    {
+        namespace SWITCHMUSICA
+        {
+            static const AkUniqueID GROUP = 1151277219U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID A = 84696446U;
+                static const AkUniqueID B = 84696445U;
+                static const AkUniqueID C = 84696444U;
+            } // namespace SWITCH
+        } // namespace SWITCHMUSICA
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {

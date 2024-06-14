@@ -1,6 +1,28 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1035427595	PlayMusicState			\Default Work Unit\PlayMusicState	
 	2752533807	Play_TestSound			\Default Work Unit\Play_TestSound	
+	4155737288	PlayMusicSwitch			\Default Work Unit\PlayMusicSwitch	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1151277219	switchmusica			\Default Work Unit\switchmusica	
+
+Switch	ID	Name	Switch Group			Notes
+	84696444	c	switchmusica			
+	84696445	b	switchmusica			
+	84696446	a	switchmusica			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3758217330	stateMusica			\Default Work Unit\stateMusica	
+
+State	ID	Name	State Group			Notes
+	84696444	c	stateMusica			
+	84696445	b	stateMusica			
+	84696446	a	stateMusica			
+	748895195	None	stateMusica			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	24827831	GAMEPLAY_Autum_1st wave_tale reverb	C:\Users\silvi\Desktop\Covid19\Unity\UltimoAño\Wwise package\Wwise package_WwiseProject\.cache\Windows\SFX\GAMEPLAY_Autum_1st wave_tale reverb_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\switchMusica\GAMEPLAY_Autum_1st wave_tale reverb\GAMEPLAY_Autum_1st wave_tale reverb		5351320
+	133948588	GAMEPLAY_Autum_2nd wave_tale reverb	C:\Users\silvi\Desktop\Covid19\Unity\UltimoAño\Wwise package\Wwise package_WwiseProject\.cache\Windows\SFX\GAMEPLAY_Autum_2nd wave_tale reverb_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\switchMusica\GAMEPLAY_Autum_2nd wave_tale reverb\GAMEPLAY_Autum_2nd wave_tale reverb		5054032
+	247731958	GAMEPLAY_Autum_3stwave_tale reverb	C:\Users\silvi\Desktop\Covid19\Unity\UltimoAño\Wwise package\Wwise package_WwiseProject\.cache\Windows\SFX\GAMEPLAY_Autum_3stwave_tale reverb_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\switchMusica\GAMEPLAY_Autum_3stwave_tale reverb\GAMEPLAY_Autum_3stwave_tale reverb		5054032
 	978666395	heavy hit	C:\Users\silvi\Desktop\Covid19\Unity\UltimoAño\Wwise package\Wwise package_WwiseProject\.cache\Windows\SFX\heavy hit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\heavy hit		146648
 

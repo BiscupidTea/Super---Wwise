@@ -1,7 +1,5 @@
-using System.Threading;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.Serialization;
 
 public class SwBasic : MonoBehaviour
 {

@@ -1,18 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SwSwitch : MonoBehaviour
 {
-    public string SwitchGroup;
+    public string switchGroup;
 
     public void SetSwitchState(AK.Wwise.Switch newState)
     {
-        AkSoundEngine.SetSwitch(SwitchGroup, newState.ToString(), gameObject);
+        AkSoundEngine.SetSwitch(switchGroup, newState.ToString(), gameObject);
     }
 
     public void SetSwitchState(string newState)
     {
-        AkSoundEngine.SetSwitch(SwitchGroup, newState, gameObject);
+        AkSoundEngine.SetSwitch(switchGroup, newState, gameObject);
     }
 }
